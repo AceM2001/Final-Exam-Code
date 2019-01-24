@@ -1,0 +1,255 @@
+<html>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.js"></script>
+    
+    <a-scene>
+    
+    <a-sky src="https://farm2.staticflickr.com/1965/30501579127_cc5bdd1e61_f.jpg"></a-sky>
+    
+      
+    <a-box src="https://i.imgur.com/Qt6tBda.jpg" 
+           position="0 -10 0" 
+           rotation="90 90 0"
+           height="50" 
+           width="50"
+           color="grey"
+           >
+      <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 0"
+               repeat="indefinite"
+      </a-animation>
+      
+      
+      </a-box>
+    
+        <a-box src="https://i.imgur.com/Qt6tBda.jpg" 
+           position="50 -10 0"
+           rotation="90 90 0"
+           height="50" 
+           width="50"
+           color="grey"
+           >
+      <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 0"
+               repeat="indefinite"
+      </a-animation>
+      
+      
+      </a-box>
+      
+          </a-box>
+    
+        <a-box src="https://i.imgur.com/Qt6tBda.jpg" 
+           position="100 -10 0"
+           rotation="90 90 0"
+           height="50" 
+           width="50"
+           color="grey"
+           >
+      <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 0"
+               repeat="indefinite"
+      </a-animation>
+      
+      
+      </a-box>
+    
+         <a-box src="https://i.imgur.com/Qt6tBda.jpg" 
+           position="150 -10 0"
+           rotation="90 90 0"
+           height="50" 
+           width="50"
+           color="grey"
+           >
+      <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 0"
+               repeat="indefinite"
+      </a-animation>
+      
+      
+      </a-box>
+      
+<a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/Sin_ti_tulo_1.gltf" 
+          position="20 -10 -20"
+          scale="0.07 0.07 0.07"
+          rotation="0 90 0"
+          material="color: black"
+          >
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 0"
+               repeat="indefinite"
+      </a-animation>
+      
+      </a-entity>
+    
+    
+    <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/Sin_ti_tulo_1.gltf" 
+          position="40 -10 20"
+          scale="0.07 0.07 0.07"
+          rotation="0 90 0"
+          material="color: black"
+          >
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-50 -10 20"
+               repeat="indefinite"
+      </a-animation>
+      
+      </a-entity>
+    
+    
+      <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/Sin_ti_tulo_1.gltf" 
+          position="80 -10 -20"
+          scale="0.07 0.07 0.07"
+          rotation="0 90 0"
+          material="color: black"
+          >
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-80 -10 -20"
+               repeat="indefinite"
+      </a-animation>
+      
+      </a-entity>
+    
+       <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/Sin_ti_tulo_1.gltf" 
+          position="160 -10 20"
+          scale="0.07 0.07 0.07"
+          rotation="0 90 0"
+          material="color: black"
+          >
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="-160 -10 20"
+               repeat="indefinite"
+      </a-animation>
+      
+      </a-entity>
+    
+    <a-entity light="type: directional;
+                     color: #111
+                     intensity: 20.0"
+              
+              position="0 50 0"
+              ></a-entity>
+    
+    
+    
+    
+    
+<a-entity id="box"  
+          material="color:black" 
+          position="150 0 0" 
+          sound="src:https://raw.githubusercontent.com/AceM2001/Final-exam/master/Martin%20Garrix%20Like%20Mike%20Dimitri%20Vegas%20-%20Tremor%20%5BHQ%5D.mp3;
+                 autoplay:true;
+                 volume:20;
+                 loop:true">
+      </a-entity>    
+    
+   
+    
+    <a-entity id="box"  
+          material="color:black" 
+          position="150 0 0" 
+          sound="src: https://raw.githubusercontent.com/AceM2001/Final-exam/master/Dimitri%20Vegas%20%26%20Like%20Mike%20vs%20Ummet%20Ozcan%20-%20The%20Hum%20(Short%20Edit).mp3;
+                 autoplay:true;
+                 volume:20;
+                 loop:true">
+      </a-entity>
+    
+    <a-camera position="-5 0 0" rotation="0 -90 0"></a-camera>
+    
+    <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/EmpireState_lp.obj.gltf" 
+              position=" 50 -10 50" 
+              scale="1 1 1">
+      
+      
+         <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="50 -100 50"
+               repeat="indefinite"
+      </a-animation>
+      
+    </a-entity>
+    
+    <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/1wtc_obj.gltf" 
+              position=" 80 -10 -30"
+              scale="0.2 0.2 0.2">
+      
+        <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="80 -150 -30"
+               repeat="indefinite"
+      </a-animation>
+      
+    </a-entity>
+    
+    <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/2wtc_obj.gltf"
+              position= "12 -20 35"
+              scale="0.25 0.25 0.25">
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="12 -150 35"
+               repeat="indefinite"
+      </a-animation>
+      
+    </a-entity>
+    
+    <a-entity gltf-model="https://raw.githubusercontent.com/AceM2001/Final-exam/master/empirestate_obj.gltf"
+              position="10 -10 -35"
+              rotation="270 90 180"
+              scale="0.2 0.2 0.2">
+      
+       <a-animation
+              attribute="position"
+               dur="10000"
+               fill="both"
+               to="10 -150 -35"
+               repeat="indefinite"
+      </a-animation>
+      
+    </a-entity>
+    
+    
+      <a-entity light="type: flat;
+                     color: #111
+                     intensity: 20.0"
+              
+              position="50 100 50"
+              ></a-entity>
+    
+    </a-scene>
+  </body>
+</html>
